@@ -4,10 +4,10 @@ laserscan_multi_merger:
     cloud_destination_topic: "/forklift_bruce/merged_cloud"
     scan_destination_topic: "/forklift_bruce/scan"
     laserscan_topics: "/forklift_bruce/left/scan /forklift_bruce/right/scan"
-    angle_min: -360.0
-    angle_max: 360.0
+    angle_min: -179.0
+    angle_max: 179.0
     angle_increment: 0.00437
-    scan_time: 0.0
+    scan_time: 0.1
     range_min: 0.1
     range_max: 20.0
 
